@@ -1,0 +1,29 @@
+print("hello world")
+print ("calculator simple")
+print ("escolha a operação")
+print ('1 - soma')
+print ('2 - subtração')
+print ('3 - multiplicação')
+print ('4 - divisão')
+
+operacao = input ( "Escolha a operação:" )
+num1 = float (input ( "Digite o primeiro número:" ))
+num2 = float (input ( "Digite o segundo número: " ))
+
+if operacao == '1':
+    resultado = num1 + num2
+    print ("Resultado da soma: ", resultado)
+elif operacao == '2':
+    resultado = num1 - num2
+    print ("Resultado da subtração: ", resultado)
+elif operacao == '3':
+    resultado = num1 * num2
+    print ("Resultado da multiplicação: ", resultado)
+elif operacao == '4':
+    if num2 != 0:
+        resultado = num1 / num2
+        print ("Resultado da divisão: ", resultado)
+    else:
+        print ("Erro: Divisão por zero não é permitida.")
+else:
+    print ("Operação inválida.")
