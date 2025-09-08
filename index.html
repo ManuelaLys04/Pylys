@@ -1,0 +1,133 @@
+html<!DOCTYPE html>
+<html lang="pt-br">
+
+     </head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document aula 02</title>
+        <style type="text/css">
+        </style>
+        </script> type="text/javascript">
+        </script>
+    </head>
+
+    <body>
+        <h1>Exemplos de tags do HTML5</h1>
+        <h2>Exercicio para ser entregue via blackboard</h2>
+        <h3>Feito por Manu</h3>
+        <p>
+         Serão város exemplos com diferentes tags. Onde esta parte está <b>em negrito</b> e esta outra <i>está em itálico</i>. Outra possibilidade de <strong>negrito</strong> e esta é outra possibilidade de <em>itálico</em>. Ainda poderíamos usar <u>uma tag para sublinhado</u> e existem outras, como <kdb>kbd - keyboard input</kdb>, um texto <s>tachado</s> ou como <code>código de computador com a tag code</code> etc
+        </p>
+        <br/>Uma linha horizontal:<br/>
+        <hr/>
+        <p>Outro parágrafo</p>
+        
+        Uma lista ordenada com preferências de comida:<br/>
+        <ol>
+            <li>Strogonoff</li>
+            <li>Lasanha</li>
+            <li>Bolo de prestigio</li>
+            <li>Torta de limão</li>
+        </ol>
+        Tenho que lembrar (unordered list) para o fim de semana <br/>
+        <ul>
+            <li>Estudar HTMl e demais Linguagens</li>
+            <li>Arrumar o quarto</li>
+            <li> Fazer a sobrancelha</li>
+            <li>Assistir um filme novo</li>
+        </ul>
+
+        <br/>
+        Uma tabela HTML:
+        <br/><br/>
+
+    <table>
+        <thead>
+                <th>Mês</th>
+                <th>Consumo</th>
+                <th>Valor em R$</th>
+        </thead>
+        <tr>
+            <td>AbriL</td>
+            <td>250</td>
+            <td>300.0</td>
+        </tr>
+        <tr>
+            <td>Maio</td>
+            <td>200</td>
+            <td>240.0</td>
+        </tr>
+        <tr>
+            <td>Junho</td>
+            <td>300</td>
+            <td>390.0</td>
+        </tr>
+    </table>
+
+    <br/>
+
+    <div>
+        Esta é uma div, que guardará uma parte do conteúdo da página. 
+      É um bloco retangular, onde podemos colocar texto, parágrafos, figuras, 
+      tabelas, links etc
+      <p>Este é um paragráfo dentro da div</p>
+      <a href="http://www.instagram.com">Link</a> do instagram. <br/>
+      <a href="http://www.facebook.com">Link</a> do facebook. <br/>
+      <a href="http://www.mercadolivre.com.br">Link</a> do mercadolivre. <br/>
+      <br/>
+      <img src="Naruto-Uzumaki-zekrom676-31193458-800-539.webp">
+      <img src="blob_5fhf.1200.webp">
+      <br/>  
+    </div>
+
+    <br/><br/>
+
+    <h4>Uma Tag figure (exemplo da w3schools adaptado)</h4>
+    <figure>
+        <img src="jpg_44-2.jpg" style="width:50%">
+        <figcaption>Fig.1 - </Fig></figcaption>
+    </figure>
+
+    <br><br>
+
+    <footer>Elaborado por Manuela Lys 06/09/2025</footer>
+    </body>
+
+
+        <p>Para finalizar, um formulário que usa método post para enviar dados para o servidor. Observe que, além das tags principais, utilizaremos os atributos: required, maxlength e placeholder. Ao enviar dará erro, porque a página processa.jsp não foi implementada. </p>
+
+
+        <form id="frmdados" name="frmdados" method="post" action="processa.jsp" >
+        Nome: <input type="text" id="nome" name="nome" required="required" /> <br/>
+        Senha: <input type="password" id="senha" name="senha" 
+                      maxlength="10" required 
+                      placeholder="digite letras e números" /> 
+        <br/>
+        E-mail: <input type="email" id="email" name="usermail" />  <br/>
+        URL pessoal: <input type="url" id="homepage" name="homepage" /> <br/>
+        <br/>Sexo: <br/>
+        <input type="radio" id="masc"   name="gruposexos" checked /> masculino <br/> 
+        <input type="radio" id="fem"    name="gruposexos" /> feminino <br/> 
+        <input type="radio" id="outro"  name="gruposexos" /> outro <br/> <br/>
+        <br/>Linguagens: <br/>
+        <input type="checkbox" id="js" name="ling"/> conhece JavaScript <br/>
+        <input type="checkbox" id="java" name="ling"/> conhece Java <br/>
+        <input type="checkbox" id="php" name="ling"/> conhece PHP <br/><br/>
+        Selecione sua cidade: <br/>
+        <select id="cidade" name="cidade" >
+            <option value="sp">São Paulo</option>
+            <option value="campi">Campinas</option>
+            <option value="camposjordao">Campos do Jordão</option>
+            <option value="santos">Santos</option>
+        </select> 
+        <br/><br/>
+        Finalmente, diga sua opinião sobre nosso site: <br/><br/>
+        <textarea id="opiniao" name="opiniao" rows="8" cols="35"></textarea>
+        <br/><br/>
+        <input type="submit" value="Enviar" />    <br/>
+    </form>
+
+    <br/><br/>
+</body>
+
+    </html>
