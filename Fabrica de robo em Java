@@ -1,0 +1,25 @@
+package POO;
+
+public class Fabricaderobo {
+
+	public static void main(String[] args) {		
+		//Criando o primeiro objeto
+		Robo robo1 = new Robo ();
+		robo1.nome = "BOLT";
+		robo1.cor = "Verde";
+		robo1.Energia =220;
+		
+		//Criando o segundo objeto
+		Robo robo2 = new Robo ();
+		robo2.nome = "Luna";
+		robo2.cor = "Preto";
+		robo2.Energia =120;
+		
+		//Mostrar Informações
+		robo1.mostrarInfo();
+		robo2.mostrarInfo();
+		
+
+	}
+}
+

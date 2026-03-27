@@ -1,0 +1,15 @@
+package POO;
+
+public class Robo {
+
+	String nome;
+	String cor;
+	int Energia;
+	void mostrarInfo(){
+		System.out.println("Nome do Robô: "+nome);
+		System.out.println("Cor do Robô: "+cor);
+		System.out.println("Energia do Robô: "+Energia);
+		System.out.println("-----------------------: ");
+	}
+	
+}
