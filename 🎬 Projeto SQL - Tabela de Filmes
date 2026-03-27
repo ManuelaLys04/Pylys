@@ -1,0 +1,153 @@
+--Criando tabelas
+
+CREATE TABLE filme(
+
+  cod_filme NUMBER (6) NOT NULL,
+
+  nome VARCHAR2 (80) NOT NULL,
+
+  duracao NUMBER (3) NULL,
+
+  classificacao NUMBER (2) NOT NULL,
+
+  ano NUMBER (4) NULL,
+
+  cod_diretor NUMBER (3) NULL,
+
+  nro_copias NUMBER (3) NOT NULL,
+
+  CONSTRAINT pk_filme PRIMARY KEY (cod_filme)
+
+);
+
+
+
+ALTER TABLE pk_filme
+
+ADD genero VARCHAR2(30);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (1, 'Harry Potter e a pedra filosofal', 140, 10, 2001, 10, 2);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (2, 'Harry Potter e a camâra secreta', 150, 12, 2002, 11, 2);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (3, 'Harry Potter e o prisioneiro de Azkaban', 160, 2, 2004, 12, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (4, 'Harry Potter e o cálice de fogo', 180, 16, 2005, 13, 1);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (5, 'Harry Potter e a ordem da fenix', 120, L, 2007, 14, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (6, 'Harry Potter e o enigma do Principe', 100, 10, 2009, 15, 4);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (7, 'Harry Potter e as reliquias da morte parte 1', 190, 16, 2010, 16, 4);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (8, 'Harry Potter e as reliquias da morte parte 2', 190, 16, 2011, 18, 5);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (9, 'Animais fantasticos: os crimes de Grindelwald', 110, L, 2018, 19, 2);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (10, 'Animais Fantasticos: e onde habitam', 115, 10, 2019, 20, 5);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (11, 'Animais fantasticos: Os segredos de Dumbledore', 120, 14, 2020, 21, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (12, 'Jogos vorazes', 142, 16, 2012, 15, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (13, 'Jogos vorazes: a esperança - parte 1', 146, 16, 2014, 22, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (14, 'Jogos vorazes: a esperança - parte 2', 137, 14, 2015, 23, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (15, 'Divergente', 135, 12, 2015, 24, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (16, 'Convergente', 127, 14, 2016, 25, 4);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (17, 'Insurgente', 129, 14, 2017, 26, 3);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (18, 'Vingadores: Guerra civil', 147, 12, 2016, 27, 5);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (19, 'Vingadores: Guerra Infinita', 149, 14, 2018, 28, 5);
+
+
+
+  INSERT INTO filme (cod_filme, nome, duracao, classificacao, ano, cod_diretor, nro_copias)
+
+  VALUES (20, 'Vingadores: Ultimato', 181, 16, 2019, 29, 5);
+
+
+
+
+
+  SELECT * FROM filme;
